@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+h1 {
+  padding: 30px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  text-shadow: 5px 2px 100px #000, -5px 5px 5px white;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: 150px;
+}
+
+body {
+  background-image: url(/man-5419522_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 150px ;
+  gap: 20px;
+  text-shadow: 5px 2px 20px #000, 1px 1px 10px whitesmoke;
+}
+
+.menu a {
+  background: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.detalhe {
+  background: white;
+}
+
+section {
+  flex: 1 0 auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 50px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#info_empresa {
+  text-align: center;
+  font-size: 27px;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 5px 2px 100px #000, 0px 0px 3px white;
+  width: fit-content;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px ;
+}
+
+footer {
+  padding-top: 198px ;
+}
+
+.rodape {
+  bottom: 0;
+  width: 100%;
+  font-size: large;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  background: black;
+  padding: 30px;
+}
